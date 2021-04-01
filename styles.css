@@ -1,0 +1,141 @@
+/****************************** TAG SELECTORS *************************************/
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+div {
+  /* background-color: #f6dfeb; */
+  margin: 0;
+  display: inline-block;
+  position: relative;
+}
+
+h1 {
+  margin: 50px auto 0;
+  font-family: "Satisfy", cursive;
+  font-size: 5.625rem;
+  color: #66bfbf;
+}
+
+h2 {
+  font-family: "Vollkorn", serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+}
+
+h3 {
+  font-family: "Vollkorn", serif;
+  color: #11999e;
+}
+
+p {
+  color: #40514e;
+  line-height: 2;
+}
+
+hr {
+  margin: 20px auto;
+  width: 7%;
+  border: 7px dashed #eaf6f6;
+}
+
+/****************************** CLASS SELECTORS *************************************/
+
+.top-container {
+  position: relative;
+  background-color: #eaf6f6;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 100px;
+  /* background-color: red;
+  left: 400px; */
+}
+
+.middle-container {
+}
+
+.bottom-container {
+  width: 100%;
+  background-color: #66bfbf;
+  padding: 50px 0;
+  margin: 0 auto;
+}
+
+.footer-link {
+  color: #11999e;
+  margin-left: 30px;
+  text-decoration: none;
+}
+
+.underline-text {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 200px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 150px;
+}
+
+.profile {
+  margin: 50px 0;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 0 auto 40px;
+  text-align: left;
+}
+
+.intro{
+  width: 30%;
+  margin: 0 auto;
+}
+
+.comp-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  border-radius: 100%;
+}
+
+.game-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me {
+  margin-bottom: 50px;
+}
+
+.contact-me p {
+  padding-bottom: 20px;
+}
+
+.btn {
+  background-color: #11999e;
+  padding: 10px;
+  border-radius: 15px;
+  text-decoration: none;
+  color: #eaf6f6;
+}
+
+.btn:hover {
+  background-color: #11779a;
+}
+
+/****************************** ID SELECTORS *************************************/
+
+#copyright {
+  color: #eaf6f6;
+  margin-bottom: 0px;
+}
